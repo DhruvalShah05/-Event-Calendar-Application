@@ -1,32 +1,25 @@
-# Event Scheduler
+# Event Calendar
 
-A simple Event Scheduler built using React that allows users to view and manage events on a calendar. The application includes functionalities to add, edit, delete, and persist events for specific days. Events are stored in `localStorage` to maintain persistence across page reloads. The UI is styled using ShadCN components for a modern and clean design.
+A simple and interactive event calendar that allows users to add and manage events for any given month and day. The calendar is user-friendly, mobile-responsive, and deploys updates in real-time. It also supports event persistence and allows viewing events by selecting a day.
 
 ## Features
 
-1. **Calendar View**:
-   - Display a calendar grid for the current month with days aligned properly.
-   - Support switching between months with "Previous" and "Next" buttons.
-   - Highlight the current day and the selected day.
-   
-2. **Event Management**:
-   - Add, edit, and delete events.
-   - Events have attributes: event name, start time, end time, and an optional description.
-   - Events are shown in a list when a specific day is selected from the calendar.
-   
-3. **Data Persistence**:
-   - Events are persisted in **localStorage**, ensuring that data remains even after page reloads.
-   
-4. **UI Styling**:
-   - The UI is designed with **ShadCN** to ensure a clean and modern look.
-   - The calendar grid visually differentiates weekends and weekdays.
+- View calendar with month and year navigation
+- Add events to any date
+- Display and manage events
+- Events are persistent using local storage
+- Easily switch between months and view upcoming or past events
+
+## Live Demo
+
+You can see the live version of the Event Calendar app hosted on [Vercel](https://event-calendar-neon.vercel.app/).
 
 ## Installation
 
-Follow these steps to get your local environment running.
-
-### 1. Clone the repository
+Clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/event-scheduler.git
-cd event-scheduler
+git clone https://github.com/DhruvalShah05/event-calendar.git
+cd event-calendar
+npm install
+npm run dev
