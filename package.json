@@ -1,8 +1,7 @@
 {
-  "name": "calendar-app",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "name": "event-calendar",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
